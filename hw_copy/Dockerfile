@@ -1,4 +1,5 @@
 FROM ubuntu:20.04
+WORKDIR .
 SHELL [ "/bin/bash", "-c" ]
 ENV SHELL=/bin/bash
 RUN apt-get install -y gcc g++ \
